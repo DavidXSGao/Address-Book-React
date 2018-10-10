@@ -1,0 +1,46 @@
+{
+  "country": {
+    "canada": "Canada",
+    "taiwan": "Taiwan (ROC)",
+    "unitedStates": "United States of America"
+  },
+  "global": {
+    "add": "Add",
+    "edit": "Edit"
+  },
+  "help": {
+    "part1": "This is a generic help page."
+  },
+  "language": {
+    "english": "English",
+    "german": "German"
+  },
+  "nav": {
+    "contacts": "Contacts",
+    "help": "Help"
+  },
+  "screens": {
+    "contacts": {
+      "addTitle": "Add Contact",
+      "editTitle": "Edit Contact",
+      "form": {
+        "nameField": "Name",
+        "emailField": "Email",
+        "genderField": "Gender",
+        "gender": {
+          "male": "Male",
+          "female": "Female",
+          "other": "Other"
+        },
+        "countryField": "Country",
+        "selectCountry": "Please select your country",
+        "postalCodeField": "Postal Code",
+        "back": "Back",
+        "save": "Save"
+      }
+    }
+  },
+  "title": {
+    "contacts": "Contacts"
+  }
+}

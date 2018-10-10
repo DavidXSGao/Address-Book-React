@@ -1,0 +1,14 @@
+# Use standard nodejs v8
+FROM node:8
+
+# Expose port 3000 which will be used to serve react app
+EXPOSE 3000
+
+# Set working directory to be /src inside container
+WORKDIR /src
+
+# Copy application into /src directory of container
+COPY address-book-react /src
+
+# Initialize npm dependencies
+RUN yarn install

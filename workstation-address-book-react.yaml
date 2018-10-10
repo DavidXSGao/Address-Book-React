@@ -1,0 +1,15 @@
+version: '2'
+services:
+  address-book-react:
+    build:
+      context: '.'
+      dockerfile: './docker/Dockerfile-address-book-react'
+    working_dir: '/src'
+    command: 'yarn start'
+    volumes:
+      - './address-book-react:/src'
+      - '/src/node_modules'
+    ports:
+      - '3000:3000'
+    container_name: "address-book-react"
+

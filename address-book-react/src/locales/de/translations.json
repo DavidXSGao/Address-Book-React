@@ -1,0 +1,46 @@
+{
+  "country": {
+    "canada": "Kanada",
+    "unitedStates": "Vereinigte Staaten von Amerika",
+    "taiwan": "Taiwan (ROC)"
+  },
+  "global": {
+    "add": "Hinzufügen",
+    "edit": "Bearbeiten"
+  },
+  "help": {
+    "part1": "Dies ist eine allgemeine Hilfeseite."
+  },
+  "language": {
+    "english": "Englisch",
+    "german": "Deutsche"
+  },
+  "nav": {
+    "contacts": "Kontakte",
+    "help": "Hilfe"
+  },
+  "screens": {
+    "contacts": {
+      "addTitle": "Hinzufügen Kontakte",
+      "editTitle": "Bearbeiten Kontakte",
+      "form": {
+        "nameField": "Name",
+        "emailField": "Email",
+        "genderField": "Geschlecht",
+        "gender": {
+          "male": "Männlich",
+          "female": "Weiblich",
+          "other": "Andere"
+        },
+        "countryField": "Land",
+        "selectCountry": "Bitte wählen Sie Ihr Land",
+        "postalCodeField": "Postleitzahl",
+        "back": "Zurück",
+        "save": "Speichern"
+      }
+    }
+  },
+  "title": {
+    "contacts": "Kontakte"
+  }
+}
